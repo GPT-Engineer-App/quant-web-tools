@@ -1,4 +1,5 @@
 import { Container, Text, VStack, HStack, Box, IconButton, Image, Heading, Button } from "@chakra-ui/react";
+import ChatBox from "../components/ChatBox.jsx";
 import { FaRocket, FaChartLine, FaUser, FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
@@ -25,6 +26,7 @@ const Index = () => {
         <Button colorScheme="teal" size="lg" rightIcon={<FaRocket />}>
           Get Started
         </Button>
+        <ChatBox />
       </VStack>
     </Container>
   );

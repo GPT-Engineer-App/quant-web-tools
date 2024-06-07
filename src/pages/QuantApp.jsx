@@ -1,4 +1,5 @@
 import { Container, Text, VStack, Heading } from "@chakra-ui/react";
+import ChatBox from "../components/ChatBox.jsx";
 
 const QuantApp = () => {
   return (
@@ -10,6 +11,7 @@ const QuantApp = () => {
         <Text fontSize="lg" textAlign="center">
           Welcome to the Quant App page.
         </Text>
+        <ChatBox />
       </VStack>
     </Container>
   );
